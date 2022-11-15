@@ -10,7 +10,7 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='/ghphoto.jpg'
+            src='https://github.com/CSCI-1000-About-Me-Project/team-website/raw/main/src/public/ghphoto.jpg'
             alt='grayson hubbell'
           />
 
@@ -63,6 +63,7 @@ export default function examplePage() {
           }
 
           .pic {
+            border-radius: 50px;
             height: 450px;
             width: 450px;
           }
